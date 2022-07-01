@@ -2,7 +2,7 @@ import json
 import requests
 import time
 
-webhook = r"https://discord.com/api/webhooks/965009782736048168/vX_ISVqkohf7Pib0J41FzNi0WVJDrHjhbit-a06UH28C6cl_4CIe-qLcu26m-UYcb9Vr"
+webhook = r"https://discord.com/api/webhooks/988579234110914593/RW3vY9tp0JAGTf2aPBQ4dLjaflqIorJeeliYTo3E8r9dU-J-yREzLcfK80rTTZytPzB4"
 def post_log(log):
     global webhook
     requests.post(webhook,{"content": log})
